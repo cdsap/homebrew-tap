@@ -9,4 +9,4 @@ brew install daemonitor-cli
 ```
 
 Requires JDK 21 (`openjdk@21` is installed as a dependency). Formula updates are pushed from the
-Daemonitor release workflow when `HOMEBREW_TAP_TOKEN` is configured.
+Daemonitor release workflow using a write deploy key.
