@@ -9,8 +9,8 @@ class DaemonitorCli < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.write_env_script libexec/"bin/daemonitor-cli",
-                         Language::Java.overridable_java_home_env("21")
+    (bin/"daemonitor-cli").write_env_script libexec/"bin/daemonitor-cli",
+                                            Language::Java.overridable_java_home_env("21")
   end
 
   test do
