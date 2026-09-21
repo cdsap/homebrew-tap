@@ -1,8 +1,8 @@
 class DaemonitorCli < Formula
   desc "Terminal monitor for local Gradle daemons"
   homepage "https://github.com/cdsap/daemonitor"
-  url "https://github.com/cdsap/daemonitor/releases/download/v1.0.7/daemonitor-cli-1.0.7.zip"
-  sha256 "6cb30d7b185caacb1027367e0ec465715e0b6b3075019971ef481267f1a4064e"
+  url "https://github.com/cdsap/daemonitor/releases/download/v1.1.0/daemonitor-cli-1.1.0.zip"
+  sha256 "4c3b95d6819a2b0b0121841ce439096e167b15d49eab170ba96cc5e11b09ee6a"
   license "MIT"
 
   depends_on "openjdk@21"
