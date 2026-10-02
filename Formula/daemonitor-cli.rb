@@ -5,19 +5,19 @@ class DaemonitorCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.0/daemonitor-cli-1.2.0-macos-arm64.zip"
-      sha256 "5881d4a2e3e2f4c42ee1d6e45a0d41da99275e90481fee4070784920b470d92c"
+      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.1/daemonitor-cli-1.2.1-macos-arm64.zip"
+      sha256 "39574617ca2f100482458b5cb40400e1d8240a599e435af9314b0c007400dae3"
     end
     on_intel do
-      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.0/daemonitor-cli-1.2.0-macos-x64.zip"
-      sha256 "ef2b51d2db141cd196d4c3bb632bd179707f82833186027366454afb9bde2cd5"
+      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.1/daemonitor-cli-1.2.1-macos-x64.zip"
+      sha256 "18ef692ac5ae9029067700918cb13812a74117bfe5ecc27dbcbc3888d2585322"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.0/daemonitor-cli-1.2.0-linux-x64.zip"
-      sha256 "de146d152c7a95098219e238b2038e37b00b15c7981e632c09b2eff502e5f5ac"
+      url "https://github.com/cdsap/daemonitor/releases/download/v1.2.1/daemonitor-cli-1.2.1-linux-x64.zip"
+      sha256 "321803625fab1e3d2bd3d637c7de39e6130c69073d381834f5327eaa82a37918"
     end
   end
 
