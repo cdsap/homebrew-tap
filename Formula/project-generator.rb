@@ -1,10 +1,10 @@
 class ProjectGenerator < Formula
   desc "CLI generating modularized Gradle projects"
   homepage "https://github.com/cdsap/ProjectGenerator"
-  url "https://github.com/cdsap/ProjectGenerator/releases/download/v0.6.12/projectGenerator",
+  url "https://github.com/cdsap/ProjectGenerator/releases/download/v0.7.0/projectGenerator",
       using: :nounzip
-  version "0.6.12"
-  sha256 "44ee5bb1ab850472a283c17f0fa355ee0549e7f61077df4d90332d2078d97fe3"
+  version "0.7.0"
+  sha256 "fed64a10c7f7215b93bb0c4a244062acaebf3d66fe98acdff50acf02d41c156f"
   license "MIT"
 
   depends_on "openjdk"
